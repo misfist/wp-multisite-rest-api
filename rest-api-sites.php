@@ -9,7 +9,7 @@
 * License: GPLv3
 * */
 
-define('REST_API_NAMESPACE', 'rest-sites-list/v2');
+define( 'REST_API_NAMESPACE', 'rest-sites-list/v2' );
 
 add_action( 'rest_api_init', function () {
 
@@ -24,7 +24,7 @@ add_action( 'rest_api_init', function () {
 function rest_api_list_sites() {
     $sites = wp_get_sites();
 
-    for( $i = 0, $size = count($sites); $i < $size; $i++ ) {
+    for( $i = 0, $size = count( $sites ); $i < $size; $i++ ) {
 
         $blog_details = get_blog_details( $sites[$i]['blog_id'] );
         $sites[$i]['site_name'] = $blog_details->blogname;
