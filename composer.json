@@ -1,0 +1,17 @@
+{
+  "name": "rest-api-sites/rest-api-sites",
+  "description": "Add endpoint for list of sites using JSON Rest API v2.",
+  "keywords": ["wordpress", "plugin", "rest api"],
+  "homepage": "https://github.com/misfist/wp-multisite-rest-api.git",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Pea",
+      "homepage": "http://misfist.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.21"
+  }
+}
