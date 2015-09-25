@@ -2,3 +2,4 @@
 .htaccess
 .DS_Store
 *.bak
+*bin
