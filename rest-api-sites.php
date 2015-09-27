@@ -1,13 +1,17 @@
 <?php
 /*
 * Plugin Name: WP REST API Site Listing
-* Plugin URI: https://github.com/misfist/wp-multisite-rest-api.git
+* Plugin URI: https://github.com/misfist/wp-multisite-rest-api
 * Description: Add endpoint for list of sites using JSON Rest API v2.
 * Version: 0.1
 * Author: Pea
 * Author URI: http://misfist.com
 * License: GPLv3
 * */
+
+/*
+* Usage: http://YOURDOMAIN.ORG/wp-json/rest-sites-list/v2/sites/
+*/
 
 define( 'REST_API_NAMESPACE', 'rest-sites-list/v2' );
 
